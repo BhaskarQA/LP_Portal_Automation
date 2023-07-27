@@ -1,0 +1,56 @@
+;FFMETADATA1
+[CHAPTER]
+TIMEBASE=1/1000
+START=-8056
+END=2014
+title=Validating the Dashboard page of LP portal Verify the fund and investor
+[CHAPTER]
+TIMEBASE=1/1000
+START=798
+END=12088
+title=Validating the Dashboard page of LP portal Verify if the timeline widget is displayed on the dashboard page
+[CHAPTER]
+TIMEBASE=1/1000
+START=9125
+END=23380
+title=Validating the Dashboard page of LP portal Verify if the Banner widget is displayed on the dashboard page
+[CHAPTER]
+TIMEBASE=1/1000
+START=13920
+END=37639
+title=Validating the Dashboard page of LP portal Verify if the investment widget is displayed on the dashboard page
+[CHAPTER]
+TIMEBASE=1/1000
+START=51067
+END=61362
+title=Validating the Dashboard page of LP portal Verify if the performance widget is displayed on the dashboard page
+[CHAPTER]
+TIMEBASE=1/1000
+START=61071
+END=71660
+title=Validating the Dashboard page of LP portal Verify user navigates to the insights page upon clicking on the see details links from the performance widget
+[CHAPTER]
+TIMEBASE=1/1000
+START=75037
+END=82254
+title=Validating the Dashboard page of LP portal Verify if the capital account widget is displayed on the dashboard page
+[CHAPTER]
+TIMEBASE=1/1000
+START=83595
+END=89473
+title=Validating the Dashboard page of LP portal Verify user navigates to the capital account page upon clicking on the see details links from the capital account widget
+[CHAPTER]
+TIMEBASE=1/1000
+START=89409
+END=95352
+title=Validating the Dashboard page of LP portal Verify the upcoming events widgets
+[CHAPTER]
+TIMEBASE=1/1000
+START=88684
+END=101297
+title=Validating the Dashboard page of LP portal Verify the updates widgets
+[CHAPTER]
+TIMEBASE=1/1000
+START=103436
+END=113915
+title=Validating the Dashboard page of LP portal Verify the news widgets

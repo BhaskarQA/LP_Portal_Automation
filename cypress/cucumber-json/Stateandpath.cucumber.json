@@ -1,0 +1,1247 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Validating the State and path for the LP portal",
+    "line": 2,
+    "id": "validating-the-state-and-path-for-the-lp-portal",
+    "tags": [
+      {
+        "name": "@Hide",
+        "line": 1
+      }
+    ],
+    "uri": "Stateandpath.feature",
+    "elements": [
+      {
+        "id": "validating-the-state-and-path-for-the-lp-portal;verify-if-the-path-as-url-with-(empty)-or-/",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Verify if the path as url with (empty) or /",
+        "tags": [
+          {
+            "name": "@Hide",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "The user hits the url with \"\" as empty path or /",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "User hits the api request for base data",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "User should navigate to the first lp, first vechile, first accessible menu",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-state-and-path-for-the-lp-portal;verify-if-the-path-as-url-with-(empty)-or-/",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Verify if the path as url with (empty) or /",
+        "tags": [
+          {
+            "name": "@Hide",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "The user hits the url with \"/\" as empty path or /",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "User hits the api request for base data",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "User should navigate to the first lp, first vechile, first accessible menu",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-state-and-path-for-the-lp-portal;verify-if-the-path-as-url-with-/lp-or-/lp/",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Verify if the path as url with /lp or /lp/",
+        "tags": [
+          {
+            "name": "@Hide",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "The user hits the url with \"lp\" as /lp or /lp/",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "User should navigate to the first lp, first vechile, first accessible menu",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-state-and-path-for-the-lp-portal;verify-if-the-path-as-url-with-/lp-or-/lp/",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Verify if the path as url with /lp or /lp/",
+        "tags": [
+          {
+            "name": "@Hide",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "The user hits the url with \"lp/\" as /lp or /lp/",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "User should navigate to the first lp, first vechile, first accessible menu",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-state-and-path-for-the-lp-portal;verify-if-the-path-as-url-with-/{something-invalid}",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Verify if the path as url with /{something invalid}",
+        "tags": [
+          {
+            "name": "@Hide",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "The user hits the url with \"@invalid\" as /something invalid",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "User should able to see the pop up",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "User should navigate to the first lp, first vechile, first accessible menu",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-state-and-path-for-the-lp-portal;verify-if-the-path-as-url-with-/{something-invalid}",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Verify if the path as url with /{something invalid}",
+        "tags": [
+          {
+            "name": "@Hide",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "The user hits the url with \"invalid details/0409c59e-e368-497d-8c7e-e3084c996c07/vehicles/2801c07a-9b8e-4f17-aaae-cb50cf21c728/dashboard\" as /something invalid",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "User should able to see the pop up",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "User should navigate to the first lp, first vechile, first accessible menu",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-state-and-path-for-the-lp-portal;verify-if-the-path-as-url-with-/lp/{invalid-lp-id}",
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "Verify if the path as url with /lp/{invalid LP ID}",
+        "tags": [
+          {
+            "name": "@Hide",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 46,
+            "name": "The user hits url with \"lp/0409c59e-e368-497d-8c7e-e3084c996c07\" as /lp with valid LP ID",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "User should navigate to the requested lp, first vechile of request lp, first accessible menu",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-state-and-path-for-the-lp-portal;verify-if-the-path-as-url-with-/lp/{invalid-lp-id}",
+        "keyword": "Scenario",
+        "line": 51,
+        "name": "Verify if the path as url with /lp/{invalid LP ID}",
+        "tags": [
+          {
+            "name": "@Hide",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 46,
+            "name": "The user hits url with \"lp/0409c59e-e368-497d-8c7e-e3084c996c07/\" as /lp with valid LP ID",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "User should navigate to the requested lp, first vechile of request lp, first accessible menu",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-state-and-path-for-the-lp-portal;verify-if-the-path-as-url-with-/lp/{valid-lp-id}/vehicle",
+        "keyword": "Scenario",
+        "line": 58,
+        "name": "Verify if the path as url with /lp/{valid LP ID}/vehicle",
+        "tags": [
+          {
+            "name": "@Hide",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 54,
+            "name": "The user hits the url with \"lp/0409c59e-e368-497d-8c7e-e3084c996c07/vehicle\" as /lp with valid LP ID with vehicle",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "User should navigate to the requested lp, first vechile of request lp, first accessible menu",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-state-and-path-for-the-lp-portal;verify-if-the-path-as-url-with-/lp/{valid-lp-id}/vehicle",
+        "keyword": "Scenario",
+        "line": 59,
+        "name": "Verify if the path as url with /lp/{valid LP ID}/vehicle",
+        "tags": [
+          {
+            "name": "@Hide",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 54,
+            "name": "The user hits the url with \"lp/0409c59e-e368-497d-8c7e-e3084c996c07/vehicle/\" as /lp with valid LP ID with vehicle",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "User should navigate to the requested lp, first vechile of request lp, first accessible menu",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-state-and-path-for-the-lp-portal;verify-if-the-path-as-url-with-/lp/{valid-lp-id}/{something-invalid}",
+        "keyword": "Scenario",
+        "line": 67,
+        "name": "Verify if the path as url with /lp/{valid LP ID}/{something invalid}",
+        "tags": [
+          {
+            "name": "@Hide",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 62,
+            "name": "The user hits the url with \"lp/0409c59e-e368-497d-8c7e-e3084c996c07/something invalid\" as /lp with valid LP ID with something invalid",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 63,
+            "name": "User should able to see the pop up",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 64,
+            "name": "User should navigate to the requested lp, first vechile of request lp, first accessible menu",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-state-and-path-for-the-lp-portal;verify-if-the-path-as-url-with-/lp/{valid-lp-id}/{something-invalid}",
+        "keyword": "Scenario",
+        "line": 68,
+        "name": "Verify if the path as url with /lp/{valid LP ID}/{something invalid}",
+        "tags": [
+          {
+            "name": "@Hide",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 62,
+            "name": "The user hits the url with \"lp/0409c59e-e368-497d-8c7e-e3084c996c07/invalid@123/2801c07a-9b8e-4f17-aaae-cb50cf21c728/dashboard\" as /lp with valid LP ID with something invalid",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 63,
+            "name": "User should able to see the pop up",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 64,
+            "name": "User should navigate to the requested lp, first vechile of request lp, first accessible menu",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-state-and-path-for-the-lp-portal;verify-if-the-path-as-url-with-/lp/{valid-lp-id}/vehicle/{invalid-vehicle-id}",
+        "keyword": "Scenario",
+        "line": 76,
+        "name": "Verify if the path as url with /lp/{valid LP ID}/vehicle/{invalid vehicle ID}",
+        "tags": [
+          {
+            "name": "@Hide",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 71,
+            "name": "The user hits the url with \"lp/0409c59e-e368-497d-8c7e-e3084c996c07/vehicle/invalid id\" as /lp with valid LP ID with vehicle with invalid vehicle ID",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 72,
+            "name": "User should able to see the pop up",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 73,
+            "name": "User should navigate to the requested lp, first vechile of request lp, first accessible menu",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-state-and-path-for-the-lp-portal;verify-if-the-path-as-url-with-/lp/{valid-lp-id}/vehicle/{invalid-vehicle-id}",
+        "keyword": "Scenario",
+        "line": 77,
+        "name": "Verify if the path as url with /lp/{valid LP ID}/vehicle/{invalid vehicle ID}",
+        "tags": [
+          {
+            "name": "@Hide",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 71,
+            "name": "The user hits the url with \"lp/0409c59e-e368-497d-8c7e-e3084c996c07/vehicle/2801ab50cf21c728/dashboard\" as /lp with valid LP ID with vehicle with invalid vehicle ID",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 72,
+            "name": "User should able to see the pop up",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 73,
+            "name": "User should navigate to the requested lp, first vechile of request lp, first accessible menu",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-state-and-path-for-the-lp-portal;verify-if-the-path-as-url-with-/lp/{valid-lp-id}/vehicle/{valid-vehicle-id}",
+        "keyword": "Scenario",
+        "line": 84,
+        "name": "Verify if the path as url with /lp/{valid LP ID}/vehicle/{valid vehicle ID}",
+        "tags": [
+          {
+            "name": "@Hide",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 80,
+            "name": "The user hits the url with \"lp/0409c59e-e368-497d-8c7e-e3084c996c07/vehicle/2801c07a-9b8e-4f17-aaae-cb50cf21c728\" as /lp with valid LP ID with vehicle with valid vehicle ID",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 81,
+            "name": "User should navigate to the requested lp, requested vechile, first accessible menu",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-state-and-path-for-the-lp-portal;verify-if-the-path-as-url-with-/lp/{valid-lp-id}/vehicle/{valid-vehicle-id}",
+        "keyword": "Scenario",
+        "line": 85,
+        "name": "Verify if the path as url with /lp/{valid LP ID}/vehicle/{valid vehicle ID}",
+        "tags": [
+          {
+            "name": "@Hide",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 80,
+            "name": "The user hits the url with \"lp/0409c59e-e368-497d-8c7e-e3084c996c07/vehicle/2801c07a-9b8e-4f17-aaae-cb50cf21c728/\" as /lp with valid LP ID with vehicle with valid vehicle ID",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 81,
+            "name": "User should navigate to the requested lp, requested vechile, first accessible menu",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-state-and-path-for-the-lp-portal;verify-if-the-path-as-url-with-/lp/{valid-lp-id}/vehicle/{valid-vehicle-id}/{valid-menu-item}",
+        "keyword": "Scenario",
+        "line": 92,
+        "name": "Verify if the path as url with /lp/{valid LP ID}/vehicle/{valid vehicle ID}/{valid menu item}",
+        "tags": [
+          {
+            "name": "@Hide",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 88,
+            "name": "The user hits the url with \"lp/0409c59e-e368-497d-8c7e-e3084c996c07/vehicle/2801c07a-9b8e-4f17-aaae-cb50cf21c728/documents\" as /lp with valid LP ID with vehicle with valid vehicle ID with valid menu item",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 89,
+            "name": "User should navigate to the requested lp, requested vechile, requested menu",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-state-and-path-for-the-lp-portal;verify-if-the-path-as-url-with-/lp/{valid-lp-id}/vehicle/{valid-vehicle-id}/{invalid-menu-item}",
+        "keyword": "Scenario",
+        "line": 100,
+        "name": "Verify if the path as url with /lp/{valid LP ID}/vehicle/{valid vehicle ID}/{invalid menu item}",
+        "tags": [
+          {
+            "name": "@Hide",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 95,
+            "name": "The user hits the url with \"lp/0409c59e-e368-497d-8c7e-e3084c996c07/vehicle/2801c07a-9b8e-4f17-aaae-cb50cf21c728/invalid menu\" as /lp with valid LP ID with vehicle with valid vehicle ID with invalid menu item",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 96,
+            "name": "User should able to see the pop up",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 97,
+            "name": "User should navigate to the requested lp, requested vechile, first accessible menu",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-state-and-path-for-the-lp-portal;verify-if-the-path-as-url-with-/lp/{valid-lp-id}/vehicle/{valid-vehicle-id}/{valid-menu-item}/{invalid-parameters}",
+        "keyword": "Scenario",
+        "line": 108,
+        "name": "Verify if the path as url with /lp/{valid LP ID}/vehicle/{valid vehicle ID}/{valid menu item}/{invalid parameters}",
+        "tags": [
+          {
+            "name": "@Hide",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 103,
+            "name": "The user hits the url with \"lp/0409c59e-e368-497d-8c7e-e3084c996c07/vehicle/2801c07a-9b8e-4f17-aaae-cb50cf21c728/capital-account/invalid\" as /lp with valid LP ID with vehicle with valid vehicle ID with valid menu item and invalid parameters",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 104,
+            "name": "User should able to see the pop up",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 105,
+            "name": "User should navigate to the requested lp, requested vechile, requested menu, default parameters",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

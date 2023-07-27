@@ -1,0 +1,1329 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Validating the Dashboard page of LP portal",
+    "line": 2,
+    "id": "validating-the-dashboard-page-of-lp-portal",
+    "tags": [
+      {
+        "name": "@Test",
+        "line": 1
+      }
+    ],
+    "uri": "Dashboardpage.feature",
+    "elements": [
+      {
+        "id": "validating-the-dashboard-page-of-lp-portal;verify-the-fund-and-investor",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Verify the fund and investor",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "passed",
+              "duration": 3025000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "passed",
+              "duration": 3632000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 1062000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify user should be successfully navigated to home page",
+            "result": {
+              "status": "passed",
+              "duration": 1260000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User selects the Investor from LPS drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 217000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User selects the fund from vehicle drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 206000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "The user hits the api request for the base data",
+            "result": {
+              "status": "passed",
+              "duration": 660000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Verify partner logo is displayed on the left panel",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-dashboard-page-of-lp-portal;verify-if-the-timeline-widget-is-displayed-on-the-dashboard-page",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Verify if the timeline widget is displayed on the dashboard page",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "passed",
+              "duration": 3038000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "passed",
+              "duration": 2978000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 3355000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify user should be successfully navigated to home page",
+            "result": {
+              "status": "passed",
+              "duration": 931000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User selects the Investor from LPS drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 194000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User selects the fund from vehicle drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 227000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "The user hits the api request for the dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 471000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Verify timeline widget is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "Verify the investment start date in the timeline",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "Verify the liquidation end date in the timeline",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "User hover on the events in the timeline",
+            "result": {
+              "status": "passed",
+              "duration": 108000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "A tooltip should be visible",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-dashboard-page-of-lp-portal;verify-if-the-banner-widget-is-displayed-on-the-dashboard-page",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Verify if the Banner widget is displayed on the dashboard page",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "passed",
+              "duration": 3445000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "passed",
+              "duration": 3214000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 3318000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify user should be successfully navigated to home page",
+            "result": {
+              "status": "passed",
+              "duration": 892000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User selects the Investor from LPS drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 207000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User selects the fund from vehicle drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 217000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "Banner Widget is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 208000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "User click on the banner widget it redirected to a respective url",
+            "result": {
+              "status": "passed",
+              "duration": 2748000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-dashboard-page-of-lp-portal;verify-if-the-investment-widget-is-displayed-on-the-dashboard-page",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Verify if the investment widget is displayed on the dashboard page",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "passed",
+              "duration": 2793000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "passed",
+              "duration": 16189000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 3176000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify user should be successfully navigated to home page",
+            "result": {
+              "status": "passed",
+              "duration": 916000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User selects the Investor from LPS drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 233000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User selects the fund from vehicle drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 250000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "Investment Widget is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 141000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "Verify the investment widgets and their respective graphs",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-dashboard-page-of-lp-portal;verify-if-the-performance-widget-is-displayed-on-the-dashboard-page",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Verify if the performance widget is displayed on the dashboard page",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "passed",
+              "duration": 2707000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "passed",
+              "duration": 2403000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 3435000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify user should be successfully navigated to home page",
+            "result": {
+              "status": "passed",
+              "duration": 919000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User selects the Investor from LPS drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 209000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User selects the fund from vehicle drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 182000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "Performance Widget is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "Details on the Performance widget are verified",
+            "result": {
+              "status": "passed",
+              "duration": 292000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "User click on the info icon on the performance widget",
+            "result": {
+              "status": "passed",
+              "duration": 114000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "Verify if user is able to see the metric and calculation pop-up",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-dashboard-page-of-lp-portal;verify-user-navigates-to-the-insights-page-upon-clicking-on-the-see-details-links-from-the-performance-widget",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "Verify user navigates to the insights page upon clicking on the see details links from the performance widget",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "passed",
+              "duration": 3633000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "passed",
+              "duration": 2452000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 2674000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify user should be successfully navigated to home page",
+            "result": {
+              "status": "passed",
+              "duration": 879000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User selects the Investor from LPS drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 227000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User selects the fund from vehicle drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 195000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "Performance Widget is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "Clicking on the see details link from the performance widget",
+            "result": {
+              "status": "passed",
+              "duration": 329000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "User should navigate to the Insights page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 82000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-dashboard-page-of-lp-portal;verify-if-the-capital-account-widget-is-displayed-on-the-dashboard-page",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "Verify if the capital account widget is displayed on the dashboard page",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "passed",
+              "duration": 2366000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "passed",
+              "duration": 2131000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 938000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify user should be successfully navigated to home page",
+            "result": {
+              "status": "passed",
+              "duration": 920000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User selects the Investor from LPS drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 205000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User selects the fund from vehicle drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 215000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "The user hits the api request for the dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 506000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "Capital account Widget is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "Details on the capital account widget are verified",
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-dashboard-page-of-lp-portal;verify-user-navigates-to-the-capital-account-page-upon-clicking-on-the-see-details-links-from-the-capital-account-widget",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "Verify user navigates to the capital account page upon clicking on the see details links from the capital account widget",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "passed",
+              "duration": 732000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "passed",
+              "duration": 2019000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 1253000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify user should be successfully navigated to home page",
+            "result": {
+              "status": "passed",
+              "duration": 903000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User selects the Investor from LPS drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 225000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User selects the fund from vehicle drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 180000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "Capital account Widget is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 348000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 50,
+            "name": "Clicking on the see details link from the capital account widgets",
+            "result": {
+              "status": "passed",
+              "duration": 239000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "User should navigate to the capital account page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-dashboard-page-of-lp-portal;verify-the-upcoming-events-widgets",
+        "keyword": "Scenario",
+        "line": 53,
+        "name": "Verify the upcoming events widgets",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "passed",
+              "duration": 704000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "passed",
+              "duration": 1981000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 1336000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify user should be successfully navigated to home page",
+            "result": {
+              "status": "passed",
+              "duration": 871000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User selects the Investor from LPS drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 178000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User selects the fund from vehicle drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 190000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 54,
+            "name": "The user hits the api request for the upcoming events",
+            "result": {
+              "status": "passed",
+              "duration": 663000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "Upcoming event widget is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "Verify list of events are visible",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "Verify the date and time format for the events",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 58,
+            "name": "User hover any of the events",
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "Verify a tooltip is visible on the events",
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 60,
+            "name": "User click on any of the events",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 61,
+            "name": "Verify the event is getting downloaded",
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-dashboard-page-of-lp-portal;verify-the-updates-widgets",
+        "keyword": "Scenario",
+        "line": 63,
+        "name": "Verify the updates widgets",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "passed",
+              "duration": 704000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "passed",
+              "duration": 5602000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 3941000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify user should be successfully navigated to home page",
+            "result": {
+              "status": "passed",
+              "duration": 1235000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User selects the Investor from LPS drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 196000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User selects the fund from vehicle drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 212000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 64,
+            "name": "The user hits the api request for the updates",
+            "result": {
+              "status": "passed",
+              "duration": 476000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 65,
+            "name": "Updates widget is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 69,
+            "name": "Verify list of updates are visible",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 70,
+            "name": "Verify the date and time format for the updates",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 71,
+            "name": "User hover any of the updates",
+            "result": {
+              "status": "passed",
+              "duration": 81000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 72,
+            "name": "Verify a tooltip is visible on the updates",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 73,
+            "name": "User clicks on any of the updates",
+            "result": {
+              "status": "passed",
+              "duration": 109000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 74,
+            "name": "User should sucessfully navigate to the respective page",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-dashboard-page-of-lp-portal;verify-the-news-widgets",
+        "keyword": "Scenario",
+        "line": 76,
+        "name": "Verify the news widgets",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "passed",
+              "duration": 4145000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "passed",
+              "duration": 2895000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 1159000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify user should be successfully navigated to home page",
+            "result": {
+              "status": "passed",
+              "duration": 930000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User selects the Investor from LPS drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 179000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User selects the fund from vehicle drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 190000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 77,
+            "name": "The user hits the api request for the news",
+            "result": {
+              "status": "passed",
+              "duration": 777000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 78,
+            "name": "News widget is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 79,
+            "name": "Verify list of news are visible",
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 80,
+            "name": "Verify the date and time format for the news",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 81,
+            "name": "User hover any of the news",
+            "result": {
+              "status": "passed",
+              "duration": 51000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 82,
+            "name": "Verify a tooltip is visible on the news",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 83,
+            "name": "User clicks on any of the news",
+            "result": {
+              "status": "passed",
+              "duration": 93000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 84,
+            "name": "Verify user navigates to the external url",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

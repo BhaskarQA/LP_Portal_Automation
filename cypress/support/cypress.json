@@ -1,0 +1,6 @@
+{
+    "reporter" : "mochawesome",
+    "testFiles": "**/*.{feature,features}",
+    "ignoreTestFiles": "*.js"
+  
+  }

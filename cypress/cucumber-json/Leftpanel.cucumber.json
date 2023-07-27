@@ -1,0 +1,692 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Validating the Leftpanel of LP portal",
+    "line": 2,
+    "id": "validating-the-leftpanel-of-lp-portal",
+    "tags": [
+      {
+        "name": "@Test",
+        "line": 1
+      }
+    ],
+    "uri": "Leftpanel.feature",
+    "elements": [
+      {
+        "id": "validating-the-leftpanel-of-lp-portal;verify-the-user-is-redirected-to-the-dashboard-page-and-verify-the-breadcrumbs",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Verify the user is redirected to the dashboard page and verify the breadcrumbs",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "passed",
+              "duration": 1390000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "passed",
+              "duration": 32587000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 1549000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify user should be successfully navigated to home page",
+            "result": {
+              "status": "passed",
+              "duration": 1650000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User selects the Investor from LPS drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 213000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User selects the fund from vehicle drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 210000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Verify Breadcrumbs - / Dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-leftpanel-of-lp-portal;verify-the-user-is-redirected-to-the-insights-page---fund-metrics-and-verify-the-breadcrumbs",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Verify the user is redirected to the Insights page - Fund Metrics and verify the breadcrumbs",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "passed",
+              "duration": 1195000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "passed",
+              "duration": 31723000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 1012000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify user should be successfully navigated to home page",
+            "result": {
+              "status": "passed",
+              "duration": 953000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User selects the Investor from LPS drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 241000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User selects the fund from vehicle drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 232000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "The user clicks on the insights Page",
+            "result": {
+              "status": "passed",
+              "duration": 175000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Verify Breadcrumbs - / Insights / Fund Metrics",
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-leftpanel-of-lp-portal;verify-the-user-is-redirected-to-the-insights-page---portfolio-investments-and-verify-the-breadcrumbs",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Verify the user is redirected to the Insights page - Portfolio Investments and verify the breadcrumbs",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "passed",
+              "duration": 1298000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "passed",
+              "duration": 2339000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 1038000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify user should be successfully navigated to home page",
+            "result": {
+              "status": "passed",
+              "duration": 931000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User selects the Investor from LPS drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 226000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User selects the fund from vehicle drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 216000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "The user clicks on the insights Page",
+            "result": {
+              "status": "passed",
+              "duration": 215000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "The user clicks on the Portfolio Investments tab",
+            "result": {
+              "status": "passed",
+              "duration": 177000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "Verify Breadcrumbs - / Insights / Portfolio Investments",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-leftpanel-of-lp-portal;verify-the-user-is-redirected-to-the-capital-account-page--overview-and-verify-the-breadcrumbs",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Verify the user is redirected to the Capital Account page- Overview and verify the breadcrumbs",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "passed",
+              "duration": 1684000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "passed",
+              "duration": 49971000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 1612000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify user should be successfully navigated to home page",
+            "result": {
+              "status": "passed",
+              "duration": 1109000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User selects the Investor from LPS drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 236000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User selects the fund from vehicle drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 207000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "The user clicks on the Capital Account Page",
+            "result": {
+              "status": "passed",
+              "duration": 206000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "Verify Breadcrumbs - / Capital Account / Overview",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-leftpanel-of-lp-portal;verify-the-user-is-redirected-to-the-capital-account---transactions-page-and-verify-the-breadcrumbs",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Verify the user is redirected to the Capital Account - Transactions page and verify the breadcrumbs",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "passed",
+              "duration": 1153000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "passed",
+              "duration": 30865000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 1560000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify user should be successfully navigated to home page",
+            "result": {
+              "status": "passed",
+              "duration": 1315000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User selects the Investor from LPS drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 210000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User selects the fund from vehicle drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 198000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "The user clicks on the Capital Account Page",
+            "result": {
+              "status": "passed",
+              "duration": 187000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "The user clicks on the Transaction tab",
+            "result": {
+              "status": "passed",
+              "duration": 190000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "Verify Breadcrumbs - / Capital Account / Transactions",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-leftpanel-of-lp-portal;verify-the-user-is-redirected-to-the-reports-page-and-verify-the-breadcrumbs",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Verify the user is redirected to the Reports page and verify the breadcrumbs",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "passed",
+              "duration": 2218000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "passed",
+              "duration": 3005000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 1164000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify user should be successfully navigated to home page",
+            "result": {
+              "status": "passed",
+              "duration": 1203000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User selects the Investor from LPS drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 228000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User selects the fund from vehicle drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 212000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "The user clicks on the Reports Page",
+            "result": {
+              "status": "passed",
+              "duration": 201000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "Verify Breadcrumb - Reports / year / quarter",
+            "result": {
+              "status": "passed",
+              "duration": 1232000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-leftpanel-of-lp-portal;verify-the-user-is-redirected-to-the-documents-page-and-verify-the-breadcrumbs",
+        "keyword": "Scenario",
+        "line": 44,
+        "name": "Verify the user is redirected to the Documents page and verify the breadcrumbs",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "passed",
+              "duration": 1417000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "passed",
+              "duration": 2531000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 1015000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify user should be successfully navigated to home page",
+            "result": {
+              "status": "passed",
+              "duration": 895000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User selects the Investor from LPS drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 256000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User selects the fund from vehicle drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 243000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "The user clicks on the Documents Page",
+            "result": {
+              "status": "passed",
+              "duration": 123000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "Verify Breadcrumbs - / Documents",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

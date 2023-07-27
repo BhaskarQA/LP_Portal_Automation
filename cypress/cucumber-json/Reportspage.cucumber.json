@@ -1,0 +1,172 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Validating the Reports page of LP portal",
+    "line": 2,
+    "id": "validating-the-reports-page-of-lp-portal",
+    "tags": [
+      {
+        "name": "@Test",
+        "line": 1
+      }
+    ],
+    "uri": "Reportspage.feature",
+    "elements": [
+      {
+        "id": "validating-the-reports-page-of-lp-portal;verify-the-report-page-pdf-is-verified",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Verify the report page pdf is verified",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "passed",
+              "duration": 1297000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "passed",
+              "duration": 2436000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 1121000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify user should be successfully navigated to home page",
+            "result": {
+              "status": "passed",
+              "duration": 928000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User selects the Investor from LPS drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 206000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User selects the fund from vehicle drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 283000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "The user hits the api request for the reports",
+            "result": {
+              "status": "passed",
+              "duration": 947000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "The user clicks on the Reports Page",
+            "result": {
+              "status": "passed",
+              "duration": 118000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "User should sucessfully navigated to the report page",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "User selects the year from dropdown",
+            "result": {
+              "status": "passed",
+              "duration": 751000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "User selects the quarter from the dropdown",
+            "result": {
+              "status": "passed",
+              "duration": 188000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "The user should get the following reports for the selected quarter",
+            "result": {
+              "status": "passed",
+              "duration": 1758000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "User clicks on any of the reports",
+            "result": {
+              "status": "passed",
+              "duration": 6104000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "User should able to see the pdf for the selected report",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,1649 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Validating the Capitalaccount page of LP portal",
+    "line": 2,
+    "id": "validating-the-capitalaccount-page-of-lp-portal",
+    "tags": [
+      {
+        "name": "@Test",
+        "line": 1
+      }
+    ],
+    "uri": "Capitalaccountpage.feature",
+    "elements": [
+      {
+        "id": "validating-the-capitalaccount-page-of-lp-portal;verify-the-overview-of-ifrs-vertical",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Verify the Overview of IFRS vertical",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "passed",
+              "duration": 2383000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "passed",
+              "duration": 2482000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 1007000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify user should be successfully navigated to home page",
+            "result": {
+              "status": "passed",
+              "duration": 1562000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User selects the Investor from LPS drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 205000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User selects the fund from vehicle drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 248000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "User hits the api request for the capital account overview - IFRS vertical",
+            "result": {
+              "status": "passed",
+              "duration": 718000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "The user clicks on the Capital Account Page",
+            "result": {
+              "status": "passed",
+              "duration": 261000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Choose the year",
+            "result": {
+              "status": "passed",
+              "duration": 2186000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Choose the quarter",
+            "result": {
+              "status": "passed",
+              "duration": 2191000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "User select IFRS vertical from the drop down as the file format",
+            "result": {
+              "status": "passed",
+              "duration": 2205000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Verify if the datas for selected year and quarter are been displayed for IFRS vertical",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "User clicks on the download button on the top right corner of the header",
+            "result": {
+              "status": "passed",
+              "duration": 3171000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "Verify a excel is downloaded successfully",
+            "result": {
+              "status": "passed",
+              "duration": 435000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-capitalaccount-page-of-lp-portal;verify-the-overview-kfw-capital-account",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Verify the Overview KFW capital account",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "passed",
+              "duration": 2230000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "passed",
+              "duration": 3033000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 2200000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify user should be successfully navigated to home page",
+            "result": {
+              "status": "passed",
+              "duration": 963000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User selects the Investor from LPS drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 212000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User selects the fund from vehicle drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 254000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "User hits the api request for the capital account overview - KFW capital account",
+            "result": {
+              "status": "passed",
+              "duration": 306000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "The user clicks on the Capital Account Page",
+            "result": {
+              "status": "passed",
+              "duration": 174000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "Choose the year",
+            "result": {
+              "status": "passed",
+              "duration": 2201000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "Choose the quarter",
+            "result": {
+              "status": "passed",
+              "duration": 2186000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "User select KFW capital account from the drop down as the file format",
+            "result": {
+              "status": "passed",
+              "duration": 2233000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "Verify if the datas for selected year and quarter are been displayed for KFW capital account",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "User clicks on the download button on the top right corner of the header",
+            "result": {
+              "status": "passed",
+              "duration": 3141000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "Verify a excel is downloaded successfully",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-capitalaccount-page-of-lp-portal;verify-the-display-format-options-from-the-drop-down",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Verify the display format options from the drop-down",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "passed",
+              "duration": 2520000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "passed",
+              "duration": 2387000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 933000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify user should be successfully navigated to home page",
+            "result": {
+              "status": "passed",
+              "duration": 903000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User selects the Investor from LPS drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 190000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User selects the fund from vehicle drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 265000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "The user clicks on the Capital Account Page",
+            "result": {
+              "status": "passed",
+              "duration": 173000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "Choose the from quarter",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "Choose the To quarter",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "Click on the Download link",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "Verify the display format and file format text",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "Clicking on the Display format",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "Verify the display format option from the display format drop-down",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "Clicking on the file format",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "Verify the file format  option from the file format drop-down",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-capitalaccount-page-of-lp-portal;verify-the-capital-account-/-transaction-are-displayed",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "Verify the capital account / transaction are displayed",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "passed",
+              "duration": 1959000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "passed",
+              "duration": 2194000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 1737000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify user should be successfully navigated to home page",
+            "result": {
+              "status": "passed",
+              "duration": 939000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User selects the Investor from LPS drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 206000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User selects the fund from vehicle drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 248000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "User hits the api request for the capital account transaction",
+            "result": {
+              "status": "passed",
+              "duration": 489000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "The user clicks on the Capital Account Page",
+            "result": {
+              "status": "passed",
+              "duration": 186000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "The user clicks on the Transaction tab",
+            "result": {
+              "status": "passed",
+              "duration": 155000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "Verify the total no. of transaction are been displayed in the  header tab",
+            "result": {
+              "status": "passed",
+              "duration": 3095000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "User clicks on the download button on the top right corner of the header",
+            "result": {
+              "status": "passed",
+              "duration": 3191000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "Verify capital account / transaction excel is downloaded successfully",
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 50,
+            "name": "User click on any of the transaction",
+            "result": {
+              "status": "passed",
+              "duration": 4209000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "Verify the selected transaction is opened",
+            "result": {
+              "status": "passed",
+              "duration": 4031000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 52,
+            "name": "Verify the pdf viewer is enabled below the selected row",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-capitalaccount-page-of-lp-portal;verify-the-transaction-details-for-the-selected-dates-are-displayed",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "Verify the transaction details for the selected dates are displayed",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "passed",
+              "duration": 804000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "passed",
+              "duration": 2569000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 3323000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify user should be successfully navigated to home page",
+            "result": {
+              "status": "passed",
+              "duration": 1257000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User selects the Investor from LPS drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 211000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User selects the fund from vehicle drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 317000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 55,
+            "name": "The user clicks on the Capital Account Page",
+            "result": {
+              "status": "passed",
+              "duration": 179000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "The user clicks on the Transaction tab",
+            "result": {
+              "status": "passed",
+              "duration": 255000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 57,
+            "name": "User choose the From Date",
+            "result": {
+              "status": "passed",
+              "duration": 750000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "User choose the To Date",
+            "result": {
+              "status": "passed",
+              "duration": 596000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "Verify if the list of transaction are displayed for the selected dates",
+            "result": {
+              "status": "passed",
+              "duration": 90000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 60,
+            "name": "Verify if total no. of transaction are been displayed in the right corner of the header tab",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 61,
+            "name": "User clicks on the download button on the top right corner of the header",
+            "result": {
+              "status": "passed",
+              "duration": 3147000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 62,
+            "name": "Verify a filtered excel is downloaded successfully",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 63,
+            "name": "User clicks on clear filter button",
+            "result": {
+              "status": "passed",
+              "duration": 100000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 64,
+            "name": "Verify all the transactions are displayed",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-capitalaccount-page-of-lp-portal;verify-if-the-no-transaction-message-is-shown-in-case-of-no-data",
+        "keyword": "Scenario",
+        "line": 66,
+        "name": "Verify if the no transaction message is shown in case of no data",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "passed",
+              "duration": 3140000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "passed",
+              "duration": 2913000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 922000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify user should be successfully navigated to home page",
+            "result": {
+              "status": "passed",
+              "duration": 1737000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User selects the Investor from LPS drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 192000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User selects the fund from vehicle drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 252000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 67,
+            "name": "The user clicks on the Capital Account Page",
+            "result": {
+              "status": "passed",
+              "duration": 265000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 68,
+            "name": "The user clicks on the Transaction tab",
+            "result": {
+              "status": "passed",
+              "duration": 141000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 69,
+            "name": "User choose the From Date in the date picker",
+            "result": {
+              "status": "passed",
+              "duration": 791000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 70,
+            "name": "User choose the To Date in the date picker",
+            "result": {
+              "status": "passed",
+              "duration": 620000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 71,
+            "name": "Verify if a no record found message is been displayed",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 72,
+            "name": "Verify if no transaction for the selected dates are displayed",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 73,
+            "name": "Verify if the download icon is not clickable",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 74,
+            "name": "User clicks on clear filter button",
+            "result": {
+              "status": "passed",
+              "duration": 136000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 75,
+            "name": "Verify all the transactions are displayed",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-capitalaccount-page-of-lp-portal;verify-the-transaction-are-filtered-based-on-capital-call",
+        "keyword": "Scenario",
+        "line": 77,
+        "name": "Verify the transaction are filtered based on capital call",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "passed",
+              "duration": 3077000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "passed",
+              "duration": 2303000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 973000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify user should be successfully navigated to home page",
+            "result": {
+              "status": "passed",
+              "duration": 882000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User selects the Investor from LPS drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 196000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User selects the fund from vehicle drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 261000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 78,
+            "name": "The user clicks on the Capital Account Page",
+            "result": {
+              "status": "passed",
+              "duration": 175000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 79,
+            "name": "The user clicks on the Transaction tab",
+            "result": {
+              "status": "passed",
+              "duration": 199000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 80,
+            "name": "Choose the transaction type as capital call",
+            "result": {
+              "status": "passed",
+              "duration": 2203000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 81,
+            "name": "Verify if only the capital call are filtered and displayed",
+            "result": {
+              "status": "passed",
+              "duration": 54000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 82,
+            "name": "Verify the no.of transaction for capital call",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 83,
+            "name": "User clicks on the download button on the top right corner of the header",
+            "result": {
+              "status": "passed",
+              "duration": 3158000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 84,
+            "name": "Verify a filtered excel is downloaded successfully",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 85,
+            "name": "User clicks on clear filter button",
+            "result": {
+              "status": "passed",
+              "duration": 111000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 86,
+            "name": "Verify all the transactions are displayed",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-capitalaccount-page-of-lp-portal;verify-the-transaction-are-filtered-based-on-capital-distribution",
+        "keyword": "Scenario",
+        "line": 88,
+        "name": "Verify the transaction are filtered based on capital distribution",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "passed",
+              "duration": 736000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "passed",
+              "duration": 12376000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 4011000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify user should be successfully navigated to home page",
+            "result": {
+              "status": "passed",
+              "duration": 946000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User selects the Investor from LPS drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 211000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User selects the fund from vehicle drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 249000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 89,
+            "name": "The user clicks on the Capital Account Page",
+            "result": {
+              "status": "passed",
+              "duration": 181000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 90,
+            "name": "The user clicks on the Transaction tab",
+            "result": {
+              "status": "passed",
+              "duration": 222000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 91,
+            "name": "Choose the transaction type as capital distribution",
+            "result": {
+              "status": "passed",
+              "duration": 2226000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 92,
+            "name": "Verify if only the capital distribution are filtered and displayed",
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 93,
+            "name": "Verify the no.of transaction for capital distribution",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 94,
+            "name": "User clicks on the download button on the top right corner of the header",
+            "result": {
+              "status": "passed",
+              "duration": 3165000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 95,
+            "name": "Verify a filtered excel is downloaded successfully",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 96,
+            "name": "User clicks on clear filter button",
+            "result": {
+              "status": "passed",
+              "duration": 113000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 97,
+            "name": "Verify all the transactions are displayed",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-capitalaccount-page-of-lp-portal;verify-the-transaction-are-filtered-based-on-paid-status",
+        "keyword": "Scenario",
+        "line": 99,
+        "name": "Verify the transaction are filtered based on Paid status",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "passed",
+              "duration": 3907000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "passed",
+              "duration": 2904000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 3653000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify user should be successfully navigated to home page",
+            "result": {
+              "status": "passed",
+              "duration": 936000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User selects the Investor from LPS drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 216000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User selects the fund from vehicle drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 275000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 100,
+            "name": "The user clicks on the Capital Account Page",
+            "result": {
+              "status": "passed",
+              "duration": 253000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 101,
+            "name": "The user clicks on the Transaction tab",
+            "result": {
+              "status": "passed",
+              "duration": 219000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 102,
+            "name": "Choose the transaction status as Paid",
+            "result": {
+              "status": "passed",
+              "duration": 646000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 103,
+            "name": "Verify if only the Paid status transations are filtered and displayed",
+            "result": {
+              "status": "passed",
+              "duration": 45000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 104,
+            "name": "Verify the no.of transaction for Paid status",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 105,
+            "name": "User clicks on the download button on the top right corner of the header",
+            "result": {
+              "status": "passed",
+              "duration": 3158000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 106,
+            "name": "Verify a filtered excel is downloaded successfully",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 107,
+            "name": "User clicks on clear filter button",
+            "result": {
+              "status": "passed",
+              "duration": 110000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 108,
+            "name": "Verify all the transactions are displayed",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-the-capitalaccount-page-of-lp-portal;verify-the-transaction-are-filtered-based-on-open-status",
+        "keyword": "Scenario",
+        "line": 110,
+        "name": "Verify the transaction are filtered based on Open status",
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The user lands on the authentication page",
+            "result": {
+              "status": "passed",
+              "duration": 2654000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enter the user name or mailid and password",
+            "result": {
+              "status": "passed",
+              "duration": 2124000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Clicks on the sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 951000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify user should be successfully navigated to home page",
+            "result": {
+              "status": "passed",
+              "duration": 852000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User selects the Investor from LPS drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 211000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User selects the fund from vehicle drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 265000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 111,
+            "name": "The user clicks on the Capital Account Page",
+            "result": {
+              "status": "passed",
+              "duration": 150000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 112,
+            "name": "The user clicks on the Transaction tab",
+            "result": {
+              "status": "passed",
+              "duration": 227000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 113,
+            "name": "Choose the transaction status as Open",
+            "result": {
+              "status": "passed",
+              "duration": 301000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 114,
+            "name": "Verify if only the Open status transations are filtered and displayed",
+            "result": {
+              "status": "passed",
+              "duration": 234000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 115,
+            "name": "Verify the no.of transaction for Paid transaction",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 116,
+            "name": "User clicks on the download button on the top right corner of the header",
+            "result": {
+              "status": "passed",
+              "duration": 3163000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 117,
+            "name": "Verify a filtered excel is downloaded successfully",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 118,
+            "name": "User clicks on clear filter button",
+            "result": {
+              "status": "passed",
+              "duration": 114000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 119,
+            "name": "Verify all the transactions are displayed",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
