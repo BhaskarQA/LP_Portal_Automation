@@ -1,12 +1,17 @@
 class Loginpage{
+    weblocators={
+        username:'#username',
+        password:'#password',
+        signin:'#kc-login'
+    }
     getusername(){
-       return  cy.get('#username')
+        return cy.get(this.weblocators.username)
     }
     getpassword(){
-        return  cy.get('#password')
+       return cy.get(this.weblocators.password)
     }
     getsignin(){
-        return  cy.get('#kc-login')
+          return cy.get(this.weblocators.signin)
     }
     }
     export default Loginpage

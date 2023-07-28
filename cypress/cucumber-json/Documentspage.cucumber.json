@@ -32,7 +32,7 @@
             "name": "The user lands on the authentication page",
             "result": {
               "status": "passed",
-              "duration": 1340000000
+              "duration": 6214000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "User enter the user name or mailid and password",
             "result": {
               "status": "passed",
-              "duration": 3951000000
+              "duration": 2489000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "Clicks on the sign in button",
             "result": {
               "status": "passed",
-              "duration": 1494000000
+              "duration": 4143000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "User should successfully be navigated to the home page",
             "result": {
               "status": "passed",
-              "duration": 1305000000
+              "duration": 1276000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "User selects the Investor from lps drop-down",
             "result": {
               "status": "passed",
-              "duration": 214000000
+              "duration": 210000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "Selects the fund from vehicle drop-down",
             "result": {
               "status": "passed",
-              "duration": 255000000
+              "duration": 252000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "Hits the api request for the documents page",
             "result": {
               "status": "passed",
-              "duration": 312000000
+              "duration": 731000000
             }
           },
           {
@@ -101,8 +101,9 @@
             "line": 15,
             "name": "User clicks on the Documents Page",
             "result": {
-              "status": "passed",
-              "duration": 133000000
+              "status": "failed",
+              "duration": 40006000000,
+              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find element: `undefined`, but never found it.\n    at Leftpanel.getdocuments (cypress/support/Pageobject/Leftpanel.js:37:18)\n    at Context.eval (cypress/integration/examples/BDD/Documentspage/Documentspage_stepdef.js:73:14)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -111,8 +112,7 @@
             "line": 16,
             "name": "User should be sucessfully navigated to the documents page",
             "result": {
-              "status": "passed",
-              "duration": 7000000
+              "status": "skipped"
             }
           },
           {
@@ -121,8 +121,7 @@
             "line": 17,
             "name": "Should contain list of folder",
             "result": {
-              "status": "passed",
-              "duration": 362000000
+              "status": "skipped"
             }
           },
           {
@@ -131,8 +130,7 @@
             "line": 18,
             "name": "User click on the folder",
             "result": {
-              "status": "passed",
-              "duration": 104000000
+              "status": "skipped"
             }
           },
           {
@@ -141,8 +139,7 @@
             "line": 19,
             "name": "User should successfully navigate to the subfolder page",
             "result": {
-              "status": "passed",
-              "duration": 10000000
+              "status": "skipped"
             }
           },
           {
@@ -151,8 +148,7 @@
             "line": 20,
             "name": "User clicks on the sub folder",
             "result": {
-              "status": "passed",
-              "duration": 102000000
+              "status": "skipped"
             }
           },
           {
@@ -161,8 +157,7 @@
             "line": 21,
             "name": "Clicks on the pdf file for preview",
             "result": {
-              "status": "passed",
-              "duration": 96000000
+              "status": "skipped"
             }
           },
           {
@@ -171,8 +166,7 @@
             "line": 22,
             "name": "User clicks on the download button on the pdf view",
             "result": {
-              "status": "passed",
-              "duration": 6114000000
+              "status": "skipped"
             }
           },
           {
@@ -181,8 +175,7 @@
             "line": 23,
             "name": "The pdf must be downloaded sucessfully",
             "result": {
-              "status": "passed",
-              "duration": 9000000
+              "status": "skipped"
             }
           }
         ]

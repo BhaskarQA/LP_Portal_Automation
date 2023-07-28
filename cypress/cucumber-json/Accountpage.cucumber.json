@@ -31,7 +31,8 @@
             "line": 6,
             "name": "The user landed on the Dashboard page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2677000000
             }
           },
           {
@@ -40,7 +41,9 @@
             "line": 7,
             "name": "Partner logo is displayed",
             "result": {
-              "status": "skipped"
+              "status": "failed",
+              "duration": 80103000000,
+              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find element: `.mat-toolbar > img`, but never found it.\n    at Context.eval (cypress/integration/examples/BDD/Accountpage/Accountpage_stepdef.js:15:30)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -127,7 +130,8 @@
             "line": 6,
             "name": "The user landed on the Dashboard page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2273000000
             }
           },
           {
@@ -136,7 +140,8 @@
             "line": 7,
             "name": "Partner logo is displayed",
             "result": {
-              "status": "skipped"
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find element: `.mat-toolbar > img`, but never found it.\n    at Context.eval (cypress/integration/examples/BDD/Accountpage/Accountpage_stepdef.js:15:30)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -223,7 +228,8 @@
             "line": 21,
             "name": "The user landed on the Dashboard page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1981000000
             }
           },
           {
@@ -232,7 +238,8 @@
             "line": 22,
             "name": "Partner logo is displayed",
             "result": {
-              "status": "skipped"
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find element: `.mat-toolbar > img`, but never found it.\n    at Context.eval (cypress/integration/examples/BDD/Accountpage/Accountpage_stepdef.js:15:30)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -310,7 +317,8 @@
             "line": 21,
             "name": "The user landed on the Dashboard page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2847000000
             }
           },
           {
@@ -319,7 +327,8 @@
             "line": 22,
             "name": "Partner logo is displayed",
             "result": {
-              "status": "skipped"
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find element: `.mat-toolbar > img`, but never found it.\n    at Context.eval (cypress/integration/examples/BDD/Accountpage/Accountpage_stepdef.js:15:30)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -397,7 +406,8 @@
             "line": 35,
             "name": "The user landed on the Dashboard page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2732000000
             }
           },
           {
@@ -406,7 +416,8 @@
             "line": 36,
             "name": "Partner logo is displayed",
             "result": {
-              "status": "skipped"
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find element: `.mat-toolbar > img`, but never found it.\n    at Context.eval (cypress/integration/examples/BDD/Accountpage/Accountpage_stepdef.js:15:30)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
