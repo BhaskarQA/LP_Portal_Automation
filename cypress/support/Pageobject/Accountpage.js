@@ -1,16 +1,22 @@
 class Accountpage
 {
+  weblocators={
+    button:'button > span',
+    profilecontainer:'button > span',
+    passwordcontainer:'.password-card-container',
+    deleteontainer:'.account-delete-card-container'
+  }
 getbutton(){
- return cy.get('button > span')
+   return cy.get(this.weblocators.button)
 }
 getprofilecontainer(){
-    return cy.get('.profile-card-container')
+   return cy.get(this.weblocators.profilecontainer)
 }
 getpasswordcontainer(){
-    return cy.get('.password-card-container')
+   return cy.get(this.weblocators.passwordcontainer)
 }
 getdeleteontainer(){
-    return cy.get('.account-delete-card-container')
+   return cy.get(this.weblocators.deleteontainer)
 }
 }
 export default Accountpage

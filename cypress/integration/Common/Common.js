@@ -17,8 +17,8 @@ class Common {
     capitalaccount.getyearmonthdate().contains(date).click()
   }
 
-  login(url, username, password) {
-    cy.visit(Cypress.env(url));
+  login(username, password) {
+    cy.visit('/');
     loginpage.getusername().type(username);
     loginpage.getpassword().type(password);
     loginpage.getsignin().click();

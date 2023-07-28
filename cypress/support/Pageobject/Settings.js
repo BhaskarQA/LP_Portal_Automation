@@ -1,24 +1,33 @@
 class Settings {
+    weblocators={
+        users:'#mat-tab-label-0-0',
+        investor:'#mat-tab-label-0-1',
+        companyName:'input[name="company"]',
+        streetName:'input[name="street"]',
+        vatNum:'input[name="vat-number"]',
+        commRegnum:'input[name="commercial-register-number"]',
+        tiban:'input[name="iban"]'
+    }
     getUsers() {
-        return cy.get('#mat-tab-label-0-0')
+        return cy.get(this.weblocators.users)
     }
     getinvestor() {
-        return cy.get('#mat-tab-label-0-1')
+        return cy.get(this.weblocators.investor)
     }
     getcompanyname(){
-        return cy.get('input[name="company"]')
+        return cy.get(this.weblocators.companyName)
     }
     getstreetname(){
-        return cy.get('input[name="street"]')
+        return cy.get(this.weblocators.streetName)
     }
     getvatnum(){
-        return cy.get('input[name="vat-number"]')
+        return cy.get(this.weblocators.vatNum)
     }
     getcommregnum(){
-        return cy.get('input[name="commercial-register-number"]')
+        return cy.get(this.weblocators.commRegnum)
     }
     getiban(){
-        return cy.get('input[name="iban"]')
+        return cy.get(this.weblocators.getiban)
     }
 }
 export default Settings

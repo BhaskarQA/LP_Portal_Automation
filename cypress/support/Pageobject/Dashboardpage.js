@@ -1,86 +1,115 @@
 class Dashboard {
 
+    weblocators={
+        timeline:'.card-container',
+        timelineDot:'.timeline-body',
+        investmentStartDate:'.progressDate.start',
+        liquidationEndDate:'.progressDate.end',
+        tooltip:'.tooltip',
+        performance:'.card-container',
+        seedDetails:'a',
+        capitalInUsd:'.card-container',
+        upcommingEvents:'.card-container',
+        news:'.card-container',
+        updates:'.card-container',
+        banner:'.dashboard-card > a',
+        investmentKpis:'.realized-unrealized',
+        profile:'.profile',
+        options:'div > mat-option',
+        menuHeading:'span.menuHeading',
+        investorDropDown:'div.investorDropdown',
+        fundDropDown:'.fundDropdown>div',
+        investmentHeader:'.cardHeadLeft.ng-star-inserted',
+        updatesList:'.updatesContainer',
+        newList:'.newsContainer',
+        eventList:'div.eventsContainer',
+        performanceKpis:'div[class="performance"]',
+        capitalKpis:'div[class="capital"]',
+        noRecordFound:'div.noRecordFound',
+        infoIcon:'div>.info-icon',
+        popupContainer:'div.popup-container'
+    }
     gettimeline() {
-        return cy.get('.card-container').contains(' Timeline ')
+        return cy.get(this.weblocators.timeline).contains(' Timeline ')
     }
     gettimelinedot(){
-        return cy.get('.timeline-body').find('.event-dot')
+        return cy.get(this.weblocators.timelineDot).find('.event-dot')
         
     }
     getinvetsmentstartdate(){
-        return cy.get('.progressDate.start')
+        return cy.get(this.weblocators.investmentStartDate)
     }
     getliquidationenddate(){
-        return cy.get('.progressDate.end')
+        return cy.get(this.weblocators.liquidationEndDate)
     }
     gettooltip(){
-        return cy.get('.tooltip')
+        return cy.get(this.weblocators.tooltip)
     }
     getperformance() {
-        return cy.get('.card-container').contains(' Performance ')
+        return cy.get(this.weblocators.performance).contains(' Performance ')
     }
     getseedetails(){
-        return cy.get("a").contains(" See details ")
+        return cy.get(this.weblocators.seedDetails).contains(" See details ")
     }
     getcapitalinusd() {
-        return cy.get('.card-container').contains(' Capital in EUR ')
+        return cy.get(this.weblocators.capitalInUsd).contains(' Capital in EUR ')
     }
     getupcommingevents() {
-        return cy.get('.card-container').contains(' Upcoming events ')
+        return cy.get(this.weblocators.upcommingEvents).contains(' Upcoming events ')
     }
     getnews() {
-        return cy.get('.card-container').contains(' News ')
+        return cy.get(this.weblocators.news).contains(' News ')
     }
     getupdates() {
-        return cy.get('.card-container').contains(' Updates ')
+        return cy.get(this.weblocators.updates).contains(' Updates ')
     }
     getbanner() {
-        return cy.get('.dashboard-card > a')
+        return cy.get(this.weblocators.banner)
     }
     getinvestmentkpis(){
-        return cy.get('.realized-unrealized')
+        return cy.get(this.weblocators.investmentKpis)
     }
     getprofile() {
-        return cy.get('.profile')
+        return cy.get(this.weblocators.profile)
     }
     getoptions() {
-        return cy.get('div > mat-option')
+        return cy.get(this.weblocators.options)
     }
     getmenuheading() {
-        return cy.get('span.menuHeading')
+        return cy.get(this.weblocators.menuHeading)
     }
     getinvestordropdown() {
-        return cy.get('div.investorDropdown')
+        return cy.get(this.weblocators.investorDropDown)
     }
     getfunddropdown() {
-        return cy.get('.fundDropdown>div')
+        return cy.get(this.weblocators.fundDropDown)
     }
     getinvestmentheader() {
-        return cy.get('.cardHeadLeft.ng-star-inserted')
+        return cy.get(this.weblocators.investmentHeader)
     }
     getupdateslist(){
-        return cy.get('.updatesContainer').find('.eventTile')
+        return cy.get().find(this.weblocators.updatesList)
     }
     getnewslist(){
-        return cy.get('.newsContainer').find('.newsTile')
+        return cy.get().find(this.weblocators.newList)
     }
     geteventslist(){
-        return cy.get('div.eventsContainer').find('eventsTile')
+        return cy.get().find(this.weblocators.eventList)
     }
     getperformancekpis(){
-        return  cy.get('div[class="performance"]')
+        return  cy.get(this.weblocators.performanceKpis)
     }
     getcapitalkpis(){
-        return cy.get('div[class="capital"]')
+        return cy.get(this.weblocators.capitalKpis)
     }
     getnorecordfound(){
-        return cy.get('div.noRecordFound')
+        return cy.get(this.weblocators.noRecordFound)
     }
     getinfoicon(){
-        return cy.get('div>.info-icon')
+        return cy.get(this.weblocators.infoIcon)
     }
     getpopupcontainer(){
-        return cy.get('div.popup-container')
+        return cy.get(this.weblocators.popupContainer)
     }
 
    
